@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T20:35:25.567512+00:00",
+  "last_updated": "2026-03-31T21:06:15.432459+00:00",
   "jobs": [
     {
       "title": "Senior Software Developer, Backend Platform",
@@ -2041,6 +2041,84 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "32cc67b14e0f"
+    },
+    {
+      "title": "Data Integration Development Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/6314-RemoteTeleworker-US/Data-Integration-Development-Intern_R-00179443",
+      "posted_date": "2026-03-31",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "de",
+      "date_confidence": "maybe",
+      "id": "eb676b60a7df"
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Reston-VA/Software-Engineer-Intern_R-00176962",
+      "posted_date": "2026-03-31",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "459c19067287"
+    },
+    {
+      "title": "Systems, Integration and Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00167228",
+      "posted_date": "2026-03-31",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "ee8048c6175b"
+    },
+    {
+      "title": "Business Systems AI Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Reston-VA/Business-Systems-AI-Intern_R-00179346",
+      "posted_date": "2026-03-31",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ds",
+      "date_confidence": "maybe",
+      "id": "218372fac839"
+    },
+    {
+      "title": "Auditory and Hearing Research Assistant",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Groton-CT/Research-Assistant---Audiology_R-00173474",
+      "posted_date": "2026-03-31",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ra",
+      "date_confidence": "maybe",
+      "id": "8c867afcb99b"
+    },
+    {
+      "title": "Software Developer & Research Associate",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Singapore/Software-Developer---Research-Associate_R-00173520",
+      "posted_date": "2026-03-31",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "c880cb0e6356"
     },
     {
       "title": "Software Developer, Fraud Investigations",

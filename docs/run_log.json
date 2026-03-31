@@ -1,8 +1,8 @@
 {
-  "started_at": "2026-03-31T20:24:00.041551+00:00",
+  "started_at": "2026-03-31T20:57:11.440473+00:00",
   "sources": {
     "Adzuna": {
-      "raw_count": 1,
+      "raw_count": 0,
       "error": null,
       "status": "ok"
     },
@@ -17,12 +17,12 @@
       "status": "ok"
     },
     "Greenhouse": {
-      "raw_count": 4610,
+      "raw_count": 5014,
       "error": null,
       "status": "ok"
     },
     "Lever": {
-      "raw_count": 219,
+      "raw_count": 179,
       "error": null,
       "status": "ok"
     },
@@ -32,18 +32,18 @@
       "status": "ok"
     },
     "Universities": {
-      "raw_count": 3,
+      "raw_count": 0,
       "error": null,
       "status": "ok"
     },
     "Workday": {
-      "raw_count": 491,
+      "raw_count": 382,
       "error": null,
       "status": "ok"
     }
   },
-  "filtered_count": 1351,
-  "total_jobs": 1248,
-  "finished_at": "2026-03-31T20:35:25.567512+00:00",
+  "filtered_count": 28,
+  "total_jobs": 1254,
+  "finished_at": "2026-03-31T21:06:15.432459+00:00",
   "success": true
 }
