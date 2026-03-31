@@ -1,0 +1,96 @@
+name: Daily Internship Scraper
+
+on:
+  schedule:
+    # 8:00 AM EST = 13:00 UTC every day
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: "Enable verbose logging"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+
+    steps:
+      # ── Checkout ───────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # ── Python setup with pip cache ───────────────────────────────────
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: "requirements.txt"
+
+      # ── Install Python deps ───────────────────────────────────────────
+      - name: Install Python dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+
+      # ── Playwright browser cache ──────────────────────────────────────
+      - name: Cache Playwright browsers
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Playwright browsers
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: playwright install chromium --with-deps
+
+      - name: Install Playwright system deps (cached run)
+        if: steps.playwright-cache.outputs.cache-hit == 'true'
+        run: playwright install-deps chromium
+
+      # ── Run scraper ───────────────────────────────────────────────────
+      - name: Run scraper
+        env:
+          ADZUNA_APP_ID:   ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY:  ${{ secrets.ADZUNA_APP_KEY }}
+          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
+          USAJOBS_EMAIL:   ${{ secrets.USAJOBS_EMAIL }}
+          DEBUG:           ${{ github.event.inputs.debug }}
+        run: |
+          if [ "$DEBUG" = "true" ]; then
+            python -u scraper.py
+          else
+            python scraper.py 2>&1
+          fi
+
+      # ── Show summary ──────────────────────────────────────────────────
+      - name: Print run summary
+        if: always()
+        run: |
+          if [ -f docs/run_log.json ]; then
+            echo "### Scraper Run Summary" >> $GITHUB_STEP_SUMMARY
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            cat docs/run_log.json >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+      # ── Commit results ────────────────────────────────────────────────
+      - name: Commit updated jobs.json and run_log.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/jobs.json docs/run_log.json
+          # Only commit if something actually changed
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            TOTAL=$(python -c "import json; d=json.load(open('docs/jobs.json')); print(len(d['jobs']))")
+            git commit -m "chore: daily update $(date -u '+%Y-%m-%d') — ${TOTAL} jobs"
+            git push
+          fi
