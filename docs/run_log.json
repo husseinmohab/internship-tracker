@@ -1,0 +1,49 @@
+{
+  "started_at": "2026-03-31T20:24:00.041551+00:00",
+  "sources": {
+    "Adzuna": {
+      "raw_count": 1,
+      "error": null,
+      "status": "ok"
+    },
+    "USAJobs": {
+      "raw_count": 85,
+      "error": null,
+      "status": "ok"
+    },
+    "RemoteOK": {
+      "raw_count": 41,
+      "error": null,
+      "status": "ok"
+    },
+    "Greenhouse": {
+      "raw_count": 4610,
+      "error": null,
+      "status": "ok"
+    },
+    "Lever": {
+      "raw_count": 219,
+      "error": null,
+      "status": "ok"
+    },
+    "iCIMS": {
+      "raw_count": 236,
+      "error": null,
+      "status": "ok"
+    },
+    "Universities": {
+      "raw_count": 3,
+      "error": null,
+      "status": "ok"
+    },
+    "Workday": {
+      "raw_count": 491,
+      "error": null,
+      "status": "ok"
+    }
+  },
+  "filtered_count": 1351,
+  "total_jobs": 1248,
+  "finished_at": "2026-03-31T20:35:25.567512+00:00",
+  "success": true
+}
