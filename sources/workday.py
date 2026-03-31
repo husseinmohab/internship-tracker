@@ -1,11 +1,10 @@
 """
 sources/workday.py
-Workday career pages expose a semi-public CXS JSON search API.
-We POST search queries directly — no headless browser needed for most tenants.
+Workday CXS JSON search API.
 
-URL fix: Workday job posting URLs follow the pattern:
-  https://{tenant}.wd5.myworkdayjobs.com/en-US/External/{externalPath}
-NOT the CXS API path.
+URL strategy: Workday's externalPath is unreliable across tenants and
+produces broken links. Instead we link directly to the company's
+careers search page pre-filtered by the search term. This always works.
 """
 
 import asyncio
@@ -16,18 +15,8 @@ from config import WORKDAY_COMPANIES
 
 log = logging.getLogger(__name__)
 
-_WD_URL_TEMPLATES = [
-    "https://{tenant}.wd5.myworkdayjobs.com/wday/cxs/{tenant}/External/jobs",
-    "https://{tenant}.wd1.myworkdayjobs.com/wday/cxs/{tenant}/External/jobs",
-    "https://{tenant}.wd3.myworkdayjobs.com/wday/cxs/{tenant}/External/jobs",
-]
-
-# The apply URL base — different from the CXS API base
-_WD_APPLY_TEMPLATES = [
-    "https://{tenant}.wd5.myworkdayjobs.com/en-US/External",
-    "https://{tenant}.wd1.myworkdayjobs.com/en-US/External",
-    "https://{tenant}.wd3.myworkdayjobs.com/en-US/External",
-]
+# Try these subdomain versions in order
+_WD_VERSIONS = ["wd5", "wd1", "wd3", "wd12", "wd2"]
 
 _SEARCH_TERMS = [
     "data engineer intern",
@@ -35,36 +24,35 @@ _SEARCH_TERMS = [
     "data science intern",
     "software engineer intern",
     "software engineer co-op",
-    "research intern fall",
+    "data engineering co-op",
     "analytics intern",
     "machine learning intern",
     "business intelligence intern",
-    "data engineering co-op",
+    "research intern",
 ]
 
-_PAYLOAD_TEMPLATE = {
-    "appliedFacets": {},
-    "limit":         20,
-    "offset":        0,
-}
+_PAYLOAD_BASE = {"appliedFacets": {}, "limit": 20, "offset": 0}
 
 
-def _build_apply_url(tenant: str, wd_version: str, ext_path: str) -> str:
+def _cxs_url(tenant: str, version: str) -> str:
+    return f"https://{tenant}.{version}.myworkdayjobs.com/wday/cxs/{tenant}/External/jobs"
+
+
+def _careers_url(tenant: str, version: str, search_term: str) -> str:
     """
-    Construct the correct human-facing apply URL.
-    ext_path from API looks like: /job/New-York/Data-Engineer-Intern_R-12345
-    Apply URL: https://{tenant}.wd{N}.myworkdayjobs.com/en-US/External/job/...
+    Human-facing careers search URL — always valid, always opens correctly.
+    Pre-populated with the search term so the user lands on filtered results.
     """
-    base = f"https://{tenant}.{wd_version}.myworkdayjobs.com/en-US/External"
-    if ext_path:
-        # ext_path already starts with /job/...
-        return base + ext_path
-    return base
+    encoded = search_term.replace(" ", "%20")
+    return (
+        f"https://{tenant}.{version}.myworkdayjobs.com/en-US/External"
+        f"?q={encoded}"
+    )
 
 
-def _parse_job(raw: dict, company_name: str, tenant: str, wd_version: str) -> dict:
-    ext_path = raw.get("externalPath", "")
-    url      = _build_apply_url(tenant, wd_version, ext_path)
+def _parse_job(raw: dict, company_name: str, tenant: str, version: str, search_term: str) -> dict:
+    # Use the general careers search URL — reliable across all tenants
+    url = _careers_url(tenant, version, search_term)
 
     location = ", ".join(
         loc.get("descriptor", "")
@@ -72,13 +60,17 @@ def _parse_job(raw: dict, company_name: str, tenant: str, wd_version: str) -> di
         if loc.get("descriptor")
     )
 
+    desc = ""
+    jd = raw.get("jobDescription")
+    if isinstance(jd, dict):
+        desc = jd.get("descriptor", "")[:500]
+
     return {
         "title":          raw.get("title", ""),
         "company":        company_name,
         "location":       location,
         "url":            url,
-        "description":    raw.get("jobDescription", {}).get("descriptor", "")[:500]
-                          if isinstance(raw.get("jobDescription"), dict) else "",
+        "description":    desc,
         "posted_date":    date.today().isoformat(),
         "start_date_raw": "",
         "source":         "Workday",
@@ -87,33 +79,39 @@ def _parse_job(raw: dict, company_name: str, tenant: str, wd_version: str) -> di
 
 
 async def _fetch_tenant(session, tenant: str, name: str) -> list[dict]:
-    """Try each Workday subdomain version until one responds."""
-    working_url = None
-    wd_version  = None
-
-    for i, template in enumerate(_WD_URL_TEMPLATES):
-        url  = template.format(tenant=tenant)
+    # Find a working version
+    working_version = None
+    for version in _WD_VERSIONS:
+        url  = _cxs_url(tenant, version)
         data = await post_json(
             session, url,
-            {**_PAYLOAD_TEMPLATE, "searchText": "intern"},
+            {**_PAYLOAD_BASE, "searchText": "intern"},
             delay=1.0,
         )
         if data is not None:
-            working_url = url
-            wd_version  = ["wd5", "wd1", "wd3"][i]
+            working_version = version
             break
 
-    if not working_url:
-        log.debug(f"Workday/{tenant}: no working endpoint found")
+    if not working_version:
+        log.debug(f"Workday/{tenant}: no working endpoint")
         return []
 
     jobs = []
+    seen_titles = set()
+
     for term in _SEARCH_TERMS:
-        payload = {**_PAYLOAD_TEMPLATE, "searchText": term}
-        data    = await post_json(session, working_url, payload, delay=1.2)
-        if data and "jobPostings" in data:
-            for raw in data["jobPostings"]:
-                jobs.append(_parse_job(raw, name, tenant, wd_version))
+        url     = _cxs_url(tenant, working_version)
+        payload = {**_PAYLOAD_BASE, "searchText": term}
+        data    = await post_json(session, url, payload, delay=1.2)
+
+        if not data or "jobPostings" not in data:
+            continue
+
+        for raw in data["jobPostings"]:
+            title = raw.get("title", "")
+            if title and title not in seen_titles:
+                seen_titles.add(title)
+                jobs.append(_parse_job(raw, name, tenant, working_version, term))
 
     return jobs
 
