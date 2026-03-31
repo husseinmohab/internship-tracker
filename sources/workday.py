@@ -2,7 +2,10 @@
 sources/workday.py
 Workday career pages expose a semi-public CXS JSON search API.
 We POST search queries directly — no headless browser needed for most tenants.
-Falls back gracefully when a tenant slug doesn't match.
+
+URL fix: Workday job posting URLs follow the pattern:
+  https://{tenant}.wd5.myworkdayjobs.com/en-US/External/{externalPath}
+NOT the CXS API path.
 """
 
 import asyncio
@@ -13,21 +16,30 @@ from config import WORKDAY_COMPANIES
 
 log = logging.getLogger(__name__)
 
-# Workday uses several subdomain patterns — we try the most common ones
 _WD_URL_TEMPLATES = [
     "https://{tenant}.wd5.myworkdayjobs.com/wday/cxs/{tenant}/External/jobs",
     "https://{tenant}.wd1.myworkdayjobs.com/wday/cxs/{tenant}/External/jobs",
     "https://{tenant}.wd3.myworkdayjobs.com/wday/cxs/{tenant}/External/jobs",
 ]
 
+# The apply URL base — different from the CXS API base
+_WD_APPLY_TEMPLATES = [
+    "https://{tenant}.wd5.myworkdayjobs.com/en-US/External",
+    "https://{tenant}.wd1.myworkdayjobs.com/en-US/External",
+    "https://{tenant}.wd3.myworkdayjobs.com/en-US/External",
+]
+
 _SEARCH_TERMS = [
     "data engineer intern",
     "data analyst intern",
     "data science intern",
-    "software engineer intern co-op",
-    "research intern fall 2026",
+    "software engineer intern",
+    "software engineer co-op",
+    "research intern fall",
     "analytics intern",
     "machine learning intern",
+    "business intelligence intern",
+    "data engineering co-op",
 ]
 
 _PAYLOAD_TEMPLATE = {
@@ -37,11 +49,22 @@ _PAYLOAD_TEMPLATE = {
 }
 
 
-def _parse_job(raw: dict, company_name: str, base_url: str) -> dict:
+def _build_apply_url(tenant: str, wd_version: str, ext_path: str) -> str:
+    """
+    Construct the correct human-facing apply URL.
+    ext_path from API looks like: /job/New-York/Data-Engineer-Intern_R-12345
+    Apply URL: https://{tenant}.wd{N}.myworkdayjobs.com/en-US/External/job/...
+    """
+    base = f"https://{tenant}.{wd_version}.myworkdayjobs.com/en-US/External"
+    if ext_path:
+        # ext_path already starts with /job/...
+        return base + ext_path
+    return base
+
+
+def _parse_job(raw: dict, company_name: str, tenant: str, wd_version: str) -> dict:
     ext_path = raw.get("externalPath", "")
-    # Build apply URL from the tenant's base domain
-    domain   = "/".join(base_url.split("/")[:3])
-    url      = domain + ext_path if ext_path else domain
+    url      = _build_apply_url(tenant, wd_version, ext_path)
 
     location = ", ".join(
         loc.get("descriptor", "")
@@ -54,7 +77,8 @@ def _parse_job(raw: dict, company_name: str, base_url: str) -> dict:
         "company":        company_name,
         "location":       location,
         "url":            url,
-        "description":    raw.get("jobDescription", {}).get("descriptor", "")[:500],
+        "description":    raw.get("jobDescription", {}).get("descriptor", "")[:500]
+                          if isinstance(raw.get("jobDescription"), dict) else "",
         "posted_date":    date.today().isoformat(),
         "start_date_raw": "",
         "source":         "Workday",
@@ -63,19 +87,24 @@ def _parse_job(raw: dict, company_name: str, base_url: str) -> dict:
 
 
 async def _fetch_tenant(session, tenant: str, name: str) -> list[dict]:
-    """Try each URL template until one works, then query all search terms."""
+    """Try each Workday subdomain version until one responds."""
     working_url = None
+    wd_version  = None
 
-    # Find a working URL template
-    for template in _WD_URL_TEMPLATES:
+    for i, template in enumerate(_WD_URL_TEMPLATES):
         url  = template.format(tenant=tenant)
-        data = await post_json(session, url, {**_PAYLOAD_TEMPLATE, "searchText": "intern"}, delay=1.0)
+        data = await post_json(
+            session, url,
+            {**_PAYLOAD_TEMPLATE, "searchText": "intern"},
+            delay=1.0,
+        )
         if data is not None:
             working_url = url
+            wd_version  = ["wd5", "wd1", "wd3"][i]
             break
 
     if not working_url:
-        log.debug(f"Workday/{tenant}: no working URL found")
+        log.debug(f"Workday/{tenant}: no working endpoint found")
         return []
 
     jobs = []
@@ -84,7 +113,7 @@ async def _fetch_tenant(session, tenant: str, name: str) -> list[dict]:
         data    = await post_json(session, working_url, payload, delay=1.2)
         if data and "jobPostings" in data:
             for raw in data["jobPostings"]:
-                jobs.append(_parse_job(raw, name, working_url))
+                jobs.append(_parse_job(raw, name, tenant, wd_version))
 
     return jobs
 
@@ -93,7 +122,6 @@ async def scrape_workday() -> list[dict]:
     all_jobs = []
 
     async with make_session() as session:
-        # Run in small batches — Workday is rate-sensitive
         for i in range(0, len(WORKDAY_COMPANIES), 3):
             batch   = WORKDAY_COMPANIES[i:i+3]
             results = await asyncio.gather(
