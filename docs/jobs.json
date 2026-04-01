@@ -1,6 +1,71 @@
 {
-  "last_updated": "2026-03-31T22:34:20.012955+00:00",
+  "last_updated": "2026-04-01T14:41:18.771289+00:00",
   "jobs": [
+    {
+      "title": "Data Integration Development Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-04-01",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "de",
+      "date_confidence": "maybe",
+      "id": "075c65833983"
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-04-01",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "e97cbfca7375"
+    },
+    {
+      "title": "Business Systems AI Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=analytics%20intern",
+      "posted_date": "2026-04-01",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ds",
+      "date_confidence": "maybe",
+      "id": "23d1523aeac1"
+    },
+    {
+      "title": "Software Developer & Research Associate",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=machine%20learning%20intern",
+      "posted_date": "2026-04-01",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "36614e177032"
+    },
+    {
+      "title": "Auditory and Hearing Research Assistant",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
+      "posted_date": "2026-04-01",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ra",
+      "date_confidence": "maybe",
+      "id": "1ce996a0aae9"
+    },
     {
       "title": "Talent Analytics Intern",
       "company": "Cloudflare",
@@ -197,7 +262,7 @@
       "id": "2c8e6f89cb34"
     },
     {
-      "title": "AI Algorithm Research Intern \u2013 Neuromorphic Computing",
+      "title": "AI Algorithm Research Intern – Neuromorphic Computing",
       "company": "Intel",
       "location": "",
       "url": "https://intel.wd1.myworkdayjobs.com/job/Mexico-Guadalajara/AI-Algorithm-Research-Intern---Neuromorphic-Computing_JR0281358",
@@ -379,32 +444,6 @@
       "id": "c880cb0e6356"
     },
     {
-      "title": "Data Integration Development Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-03-31",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "de",
-      "date_confidence": "maybe",
-      "id": "075c65833983"
-    },
-    {
-      "title": "Software Engineer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-03-31",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "e97cbfca7375"
-    },
-    {
       "title": "Systems, Integration and Software Engineer Intern",
       "company": "Leidos",
       "location": "",
@@ -416,45 +455,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "f13586a7e8c1"
-    },
-    {
-      "title": "Business Systems AI Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=analytics%20intern",
-      "posted_date": "2026-03-31",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "ds",
-      "date_confidence": "maybe",
-      "id": "23d1523aeac1"
-    },
-    {
-      "title": "Software Developer & Research Associate",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=machine%20learning%20intern",
-      "posted_date": "2026-03-31",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "36614e177032"
-    },
-    {
-      "title": "Auditory and Hearing Research Assistant",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-03-31",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "ra",
-      "date_confidence": "maybe",
-      "id": "1ce996a0aae9"
     },
     {
       "title": "Software Engineer, Intern",

@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-03-31T22:02:17.189266+00:00",
+  "started_at": "2026-04-01T14:28:18.366618+00:00",
   "sources": {
     "Adzuna": {
       "raw_count": 0,
@@ -7,27 +7,27 @@
       "status": "ok"
     },
     "USAJobs": {
-      "raw_count": 85,
+      "raw_count": 80,
       "error": null,
       "status": "ok"
     },
     "RemoteOK": {
-      "raw_count": 41,
+      "raw_count": 39,
       "error": null,
       "status": "ok"
     },
     "Greenhouse": {
-      "raw_count": 5008,
+      "raw_count": 4998,
       "error": null,
       "status": "ok"
     },
     "Lever": {
-      "raw_count": 179,
+      "raw_count": 176,
       "error": null,
       "status": "ok"
     },
     "iCIMS": {
-      "raw_count": 236,
+      "raw_count": 235,
       "error": null,
       "status": "ok"
     },
@@ -37,13 +37,13 @@
       "status": "ok"
     },
     "Workday": {
-      "raw_count": 233,
+      "raw_count": 231,
       "error": null,
       "status": "ok"
     }
   },
-  "filtered_count": 23,
-  "total_jobs": 1260,
-  "finished_at": "2026-03-31T22:15:09.679290+00:00",
+  "filtered_count": 22,
+  "total_jobs": 52,
+  "finished_at": "2026-04-01T14:41:18.771289+00:00",
   "success": true
 }
