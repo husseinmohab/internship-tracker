@@ -1,18 +1,44 @@
 {
-  "last_updated": "2026-04-01T14:41:18.771289+00:00",
+  "last_updated": "2026-04-02T14:28:19.351510+00:00",
   "jobs": [
     {
       "title": "Data Integration Development Intern",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-04-01",
+      "posted_date": "2026-04-02",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "de",
       "date_confidence": "maybe",
       "id": "075c65833983"
+    },
+    {
+      "title": "Business Systems AI Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=analytics%20intern",
+      "posted_date": "2026-04-02",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ds",
+      "date_confidence": "maybe",
+      "id": "23d1523aeac1"
+    },
+    {
+      "title": "Auditory and Hearing Research Assistant",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
+      "posted_date": "2026-04-02",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ra",
+      "date_confidence": "maybe",
+      "id": "1ce996a0aae9"
     },
     {
       "title": "Software Engineer Intern",
@@ -28,19 +54,6 @@
       "id": "e97cbfca7375"
     },
     {
-      "title": "Business Systems AI Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=analytics%20intern",
-      "posted_date": "2026-04-01",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "ds",
-      "date_confidence": "maybe",
-      "id": "23d1523aeac1"
-    },
-    {
       "title": "Software Developer & Research Associate",
       "company": "Leidos",
       "location": "",
@@ -54,17 +67,17 @@
       "id": "36614e177032"
     },
     {
-      "title": "Auditory and Hearing Research Assistant",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
+      "title": "Software Engineer, Intern",
+      "company": "Stripe",
+      "location": "New York, NY",
+      "url": "https://stripe.com/jobs/search?gh_jid=7210115",
       "posted_date": "2026-04-01",
-      "source": "Workday",
+      "source": "Greenhouse",
       "type": null,
       "start_date": "",
-      "role": "ra",
+      "role": "swe",
       "date_confidence": "maybe",
-      "id": "1ce996a0aae9"
+      "id": "7359037a5069"
     },
     {
       "title": "Talent Analytics Intern",
@@ -494,19 +507,6 @@
       "role": "da",
       "date_confidence": "maybe",
       "id": "42f1b434ec4c"
-    },
-    {
-      "title": "Software Engineer, Intern",
-      "company": "Stripe",
-      "location": "New York, NY",
-      "url": "https://stripe.com/jobs/search?gh_jid=7210115",
-      "posted_date": "2026-03-27",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "7359037a5069"
     },
     {
       "title": "Software Engineering Intern",
