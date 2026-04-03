@@ -1,18 +1,44 @@
 {
-  "last_updated": "2026-04-02T14:28:19.351510+00:00",
+  "last_updated": "2026-04-03T14:08:20.953533+00:00",
   "jobs": [
     {
       "title": "Data Integration Development Intern",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-04-02",
+      "posted_date": "2026-04-03",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "de",
       "date_confidence": "maybe",
       "id": "075c65833983"
+    },
+    {
+      "title": "Auditory and Hearing Research Assistant",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
+      "posted_date": "2026-04-03",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ra",
+      "date_confidence": "maybe",
+      "id": "1ce996a0aae9"
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-04-03",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "e97cbfca7375"
     },
     {
       "title": "Business Systems AI Intern",
@@ -28,30 +54,30 @@
       "id": "23d1523aeac1"
     },
     {
-      "title": "Auditory and Hearing Research Assistant",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
+      "title": "Software Engineering Apprentice, Full-Stack",
+      "company": "Affirm",
+      "location": "Remote",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7647925003",
       "posted_date": "2026-04-02",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "ra",
-      "date_confidence": "maybe",
-      "id": "1ce996a0aae9"
-    },
-    {
-      "title": "Software Engineer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-04-01",
-      "source": "Workday",
+      "source": "Greenhouse",
       "type": null,
       "start_date": "",
       "role": "swe",
       "date_confidence": "maybe",
-      "id": "e97cbfca7375"
+      "id": "f3deaab185a4"
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Cloudflare",
+      "location": "Hybrid",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7774167?gh_jid=7774167",
+      "posted_date": "2026-04-02",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "6946f4ea2cf0"
     },
     {
       "title": "Software Developer & Research Associate",
@@ -520,19 +546,6 @@
       "role": "de",
       "date_confidence": "maybe",
       "id": "dd788c8bba71"
-    },
-    {
-      "title": "Software Engineering Apprentice, Full-Stack",
-      "company": "Affirm",
-      "location": "Remote",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7647925003",
-      "posted_date": "2026-03-19",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "f3deaab185a4"
     },
     {
       "title": "Sales Development Representative Intern",
