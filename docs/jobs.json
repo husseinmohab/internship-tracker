@@ -1,6 +1,58 @@
 {
-  "last_updated": "2026-04-10T14:22:29.558605+00:00",
+  "last_updated": "2026-04-11T13:59:11.630481+00:00",
   "jobs": [
+    {
+      "title": "Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-04-11",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "e97cbfca7375"
+    },
+    {
+      "title": "Software Developer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-04-11",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "efd78dc0cd82"
+    },
+    {
+      "title": "Research Assistant - Epidemiology",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
+      "posted_date": "2026-04-11",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ra",
+      "date_confidence": "maybe",
+      "id": "604596b17db1"
+    },
+    {
+      "title": "Systems, Integration and Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-04-11",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "f0faa455f860"
+    },
     {
       "title": "Auditory and Hearing Research Assistant",
       "company": "Leidos",
@@ -15,19 +67,6 @@
       "id": "1ce996a0aae9"
     },
     {
-      "title": "Software Engineer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-04-10",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "e97cbfca7375"
-    },
-    {
       "title": "Systems, Integration and Software Engineer Intern",
       "company": "Leidos",
       "location": "",
@@ -39,32 +78,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "f13586a7e8c1"
-    },
-    {
-      "title": "Software Developer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-04-10",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "efd78dc0cd82"
-    },
-    {
-      "title": "Research Assistant - Epidemiology",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-04-10",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "ra",
-      "date_confidence": "maybe",
-      "id": "604596b17db1"
     },
     {
       "title": "Cybersecurity Platform Intern",
