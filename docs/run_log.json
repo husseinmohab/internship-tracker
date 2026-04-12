@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-04-11T13:46:16.079983+00:00",
+  "started_at": "2026-04-12T13:52:43.881685+00:00",
   "sources": {
     "Adzuna": {
       "raw_count": 1,
@@ -17,7 +17,7 @@
       "status": "ok"
     },
     "Greenhouse": {
-      "raw_count": 4950,
+      "raw_count": 4953,
       "error": null,
       "status": "ok"
     },
@@ -37,13 +37,13 @@
       "status": "ok"
     },
     "Workday": {
-      "raw_count": 235,
+      "raw_count": 234,
       "error": null,
       "status": "ok"
     }
   },
   "filtered_count": 19,
   "total_jobs": 58,
-  "finished_at": "2026-04-11T13:59:11.630481+00:00",
+  "finished_at": "2026-04-12T14:05:20.289008+00:00",
   "success": true
 }
