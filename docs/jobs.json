@@ -1,18 +1,70 @@
 {
-  "last_updated": "2026-04-12T14:05:20.289008+00:00",
+  "last_updated": "2026-04-13T14:40:55.611909+00:00",
   "jobs": [
     {
       "title": "Software Engineer Intern",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-04-12",
+      "posted_date": "2026-04-13",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "swe",
       "date_confidence": "maybe",
       "id": "e97cbfca7375"
+    },
+    {
+      "title": "Research Assistant - Epidemiology",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
+      "posted_date": "2026-04-13",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ra",
+      "date_confidence": "maybe",
+      "id": "604596b17db1"
+    },
+    {
+      "title": "Systems, Integration and Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=software%20engineer%20intern",
+      "posted_date": "2026-04-13",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "f13586a7e8c1"
+    },
+    {
+      "title": "Business Analyst Intern, Marketing",
+      "company": "Cloudflare",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7729700?gh_jid=7729700",
+      "posted_date": "2026-04-13",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "da",
+      "date_confidence": "maybe",
+      "id": "905107ae89ab"
+    },
+    {
+      "title": "Computer Vision/Machine Learning Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=machine%20learning%20intern",
+      "posted_date": "2026-04-13",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ds",
+      "date_confidence": "maybe",
+      "id": "4b41753968b6"
     },
     {
       "title": "Software Developer Intern",
@@ -26,19 +78,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "efd78dc0cd82"
-    },
-    {
-      "title": "Research Assistant - Epidemiology",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-04-12",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "ra",
-      "date_confidence": "maybe",
-      "id": "604596b17db1"
     },
     {
       "title": "Systems, Integration and Software Engineer Intern",
@@ -91,19 +130,6 @@
       "role": "ra",
       "date_confidence": "maybe",
       "id": "1ce996a0aae9"
-    },
-    {
-      "title": "Systems, Integration and Software Engineer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=software%20engineer%20intern",
-      "posted_date": "2026-04-10",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "f13586a7e8c1"
     },
     {
       "title": "Cybersecurity Platform Intern",
@@ -585,19 +611,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "c880cb0e6356"
-    },
-    {
-      "title": "Business Analyst Intern, Marketing",
-      "company": "Cloudflare",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7729700?gh_jid=7729700",
-      "posted_date": "2026-03-30",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "da",
-      "date_confidence": "maybe",
-      "id": "905107ae89ab"
     },
     {
       "title": "Business Analyst Intern, Revenue Operations",
