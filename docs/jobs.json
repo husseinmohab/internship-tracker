@@ -1,25 +1,12 @@
 {
-  "last_updated": "2026-04-22T14:42:39.895763+00:00",
+  "last_updated": "2026-04-23T15:20:11.931755+00:00",
   "jobs": [
-    {
-      "title": "Software Engineer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-04-22",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "e97cbfca7375"
-    },
     {
       "title": "Research Assistant - Epidemiology",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-04-22",
+      "posted_date": "2026-04-23",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -32,13 +19,104 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-04-22",
+      "posted_date": "2026-04-23",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "ra",
       "date_confidence": "maybe",
       "id": "1ce996a0aae9"
+    },
+    {
+      "title": "AI Data Science Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-04-23",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ds",
+      "date_confidence": "maybe",
+      "id": "487d50a8c685"
+    },
+    {
+      "title": "Jr. Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-04-23",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "23993aaf2f5e"
+    },
+    {
+      "title": "Contracts and Supply Chain Analyst Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20analyst%20intern",
+      "posted_date": "2026-04-23",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "da",
+      "date_confidence": "maybe",
+      "id": "885a6e9891a1"
+    },
+    {
+      "title": "Business Analyst Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20analyst%20intern",
+      "posted_date": "2026-04-23",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "da",
+      "date_confidence": "maybe",
+      "id": "2c46e74fd65f"
+    },
+    {
+      "title": "Data Science / Decision Science Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-04-23",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ds",
+      "date_confidence": "maybe",
+      "id": "8591844a948e"
+    },
+    {
+      "title": "​​Intern - Software Engineer​",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-04-23",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "6ee149d9d7f0"
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-04-22",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "e97cbfca7375"
     },
     {
       "title": "Software Engineer - Intern",
@@ -54,32 +132,6 @@
       "id": "a7dec5cf3323"
     },
     {
-      "title": "AI Data Science Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-04-22",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "ds",
-      "date_confidence": "maybe",
-      "id": "487d50a8c685"
-    },
-    {
-      "title": "Jr. Software Engineer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-04-22",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "23993aaf2f5e"
-    },
-    {
       "title": "Data Engineer Intern",
       "company": "Leidos",
       "location": "",
@@ -93,17 +145,17 @@
       "id": "07b41a874f0a"
     },
     {
-      "title": "Contracts and Supply Chain Analyst Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20analyst%20intern",
+      "title": "Software Engineer, Intern",
+      "company": "Stripe",
+      "location": "New York, NY",
+      "url": "https://stripe.com/jobs/search?gh_jid=7210115",
       "posted_date": "2026-04-22",
-      "source": "Workday",
+      "source": "Greenhouse",
       "type": null,
       "start_date": "",
-      "role": "da",
+      "role": "swe",
       "date_confidence": "maybe",
-      "id": "885a6e9891a1"
+      "id": "7359037a5069"
     },
     {
       "title": "Software Engineering Intern",
@@ -117,19 +169,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "7d358fe13707"
-    },
-    {
-      "title": "Software Engineer, Intern",
-      "company": "Stripe",
-      "location": "New York, NY",
-      "url": "https://stripe.com/jobs/search?gh_jid=7210115",
-      "posted_date": "2026-04-21",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "7359037a5069"
     },
     {
       "title": "Business Analyst Intern, Revenue Operations",
@@ -286,19 +325,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "f13586a7e8c1"
-    },
-    {
-      "title": "Business Analyst Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20analyst%20intern",
-      "posted_date": "2026-04-20",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "da",
-      "date_confidence": "maybe",
-      "id": "2c46e74fd65f"
     },
     {
       "title": "Computer Vision/Machine Learning Intern",
