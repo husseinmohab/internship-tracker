@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-04T15:14:53.871031+00:00",
+  "last_updated": "2026-05-06T15:33:21.215953+00:00",
   "jobs": [
     {
       "title": "Research Assistant - Epidemiology",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-05-04",
+      "posted_date": "2026-05-06",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -19,7 +19,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-04",
+      "posted_date": "2026-05-06",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -32,7 +32,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-04",
+      "posted_date": "2026-05-06",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -45,13 +45,39 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-04",
+      "posted_date": "2026-05-06",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "swe",
       "date_confidence": "maybe",
       "id": "efd78dc0cd82"
+    },
+    {
+      "title": "Auditory and Hearing Research Assistant",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
+      "posted_date": "2026-05-06",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ra",
+      "date_confidence": "maybe",
+      "id": "1ce996a0aae9"
+    },
+    {
+      "title": "Junior CEMA Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=software%20engineer%20intern",
+      "posted_date": "2026-05-06",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "ce3e15652460"
     },
     {
       "title": "Software Engineer Intern",
@@ -93,30 +119,30 @@
       "id": "55ed7eae95d2"
     },
     {
-      "title": "Auditory and Hearing Research Assistant",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-05-01",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "ra",
-      "date_confidence": "maybe",
-      "id": "1ce996a0aae9"
-    },
-    {
       "title": "PhD Data Scientist, Intern",
       "company": "Stripe",
       "location": "New York, NY",
       "url": "https://stripe.com/jobs/search?gh_jid=7874965",
-      "posted_date": "2026-05-01",
+      "posted_date": "2026-05-04",
       "source": "Greenhouse",
       "type": null,
       "start_date": "",
       "role": "ds",
       "date_confidence": "maybe",
       "id": "b9c42e5816f4"
+    },
+    {
+      "title": "Software Engineer, Intern",
+      "company": "Stripe",
+      "location": "New York, NY",
+      "url": "https://stripe.com/jobs/search?gh_jid=7210115",
+      "posted_date": "2026-05-04",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "7359037a5069"
     },
     {
       "title": "Software Engineer — Summer Intern",
@@ -195,19 +221,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "9720f1f12fb3"
-    },
-    {
-      "title": "Software Engineer, Intern",
-      "company": "Stripe",
-      "location": "New York, NY",
-      "url": "https://stripe.com/jobs/search?gh_jid=7210115",
-      "posted_date": "2026-04-24",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "7359037a5069"
     },
     {
       "title": "Software Engineering Intern",
