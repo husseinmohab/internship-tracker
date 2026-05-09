@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-08T14:42:59.870173+00:00",
+  "last_updated": "2026-05-09T14:24:56.581037+00:00",
   "jobs": [
     {
       "title": "Research Assistant - Epidemiology",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-05-08",
+      "posted_date": "2026-05-09",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -19,7 +19,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-08",
+      "posted_date": "2026-05-09",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -32,13 +32,52 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-08",
+      "posted_date": "2026-05-09",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "de",
       "date_confidence": "maybe",
       "id": "07b41a874f0a"
+    },
+    {
+      "title": "Auditory and Hearing Research Assistant",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
+      "posted_date": "2026-05-09",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ra",
+      "date_confidence": "maybe",
+      "id": "1ce996a0aae9"
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-05-09",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "e97cbfca7375"
+    },
+    {
+      "title": "Junior CEMA Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-05-09",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "a99d2d623e6f"
     },
     {
       "title": "Software Developer Intern",
@@ -54,19 +93,6 @@
       "id": "efd78dc0cd82"
     },
     {
-      "title": "Auditory and Hearing Research Assistant",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-05-08",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "ra",
-      "date_confidence": "maybe",
-      "id": "1ce996a0aae9"
-    },
-    {
       "title": "Junior CEMA Software Engineer Intern",
       "company": "Leidos",
       "location": "",
@@ -80,30 +106,17 @@
       "id": "ce3e15652460"
     },
     {
-      "title": "Software Engineer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "title": "Software Engineering Apprentice, Full-Stack",
+      "company": "Affirm",
+      "location": "Remote",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7647925003",
       "posted_date": "2026-05-08",
-      "source": "Workday",
+      "source": "Greenhouse",
       "type": null,
       "start_date": "",
       "role": "swe",
       "date_confidence": "maybe",
-      "id": "e97cbfca7375"
-    },
-    {
-      "title": "Junior CEMA Software Engineer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-07",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "a99d2d623e6f"
+      "id": "f3deaab185a4"
     },
     {
       "title": "Cybersecurity Platform Intern",
@@ -533,19 +546,6 @@
       "role": "de",
       "date_confidence": "maybe",
       "id": "075c65833983"
-    },
-    {
-      "title": "Software Engineering Apprentice, Full-Stack",
-      "company": "Affirm",
-      "location": "Remote",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7647925003",
-      "posted_date": "2026-04-02",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "f3deaab185a4"
     },
     {
       "title": "Software Engineer Intern",
