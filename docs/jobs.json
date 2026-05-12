@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-11T16:04:30.593207+00:00",
+  "last_updated": "2026-05-12T15:50:43.600765+00:00",
   "jobs": [
     {
       "title": "Research Assistant - Epidemiology",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-05-11",
+      "posted_date": "2026-05-12",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -19,7 +19,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-11",
+      "posted_date": "2026-05-12",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -32,7 +32,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-11",
+      "posted_date": "2026-05-12",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -45,7 +45,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-05-11",
+      "posted_date": "2026-05-12",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -58,7 +58,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-11",
+      "posted_date": "2026-05-12",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -78,6 +78,32 @@
       "role": "da",
       "date_confidence": "maybe",
       "id": "905107ae89ab"
+    },
+    {
+      "title": "PhD Data Scientist, Intern",
+      "company": "Stripe",
+      "location": "New York, NY",
+      "url": "https://stripe.com/jobs/search?gh_jid=7874965",
+      "posted_date": "2026-05-11",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "ds",
+      "date_confidence": "maybe",
+      "id": "b9c42e5816f4"
+    },
+    {
+      "title": "Software Engineer — Summer Intern",
+      "company": "Snorkel AI",
+      "location": "Redwood City, CA (Hybrid)",
+      "url": "https://job-boards.greenhouse.io/snorkelai/jobs/5774350004",
+      "posted_date": "2026-05-11",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "ds",
+      "date_confidence": "maybe",
+      "id": "0a06573791e1"
     },
     {
       "title": "Software Engineer Intern",
@@ -158,19 +184,6 @@
       "id": "55ed7eae95d2"
     },
     {
-      "title": "PhD Data Scientist, Intern",
-      "company": "Stripe",
-      "location": "New York, NY",
-      "url": "https://stripe.com/jobs/search?gh_jid=7874965",
-      "posted_date": "2026-05-04",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "ds",
-      "date_confidence": "maybe",
-      "id": "b9c42e5816f4"
-    },
-    {
       "title": "Software Engineer, Intern",
       "company": "Stripe",
       "location": "New York, NY",
@@ -182,19 +195,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "7359037a5069"
-    },
-    {
-      "title": "Software Engineer — Summer Intern",
-      "company": "Snorkel AI",
-      "location": "Redwood City, CA (Hybrid)",
-      "url": "https://job-boards.greenhouse.io/snorkelai/jobs/5774350004",
-      "posted_date": "2026-05-01",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "ds",
-      "date_confidence": "maybe",
-      "id": "0a06573791e1"
     },
     {
       "title": "Jr. Software Engineer Intern",
