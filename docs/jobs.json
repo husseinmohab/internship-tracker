@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-19T16:25:53.823688+00:00",
+  "last_updated": "2026-05-20T16:34:13.215244+00:00",
   "jobs": [
     {
       "title": "Research Assistant - Epidemiology",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-05-19",
+      "posted_date": "2026-05-20",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -19,7 +19,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-19",
+      "posted_date": "2026-05-20",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -32,7 +32,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-05-19",
+      "posted_date": "2026-05-20",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -45,13 +45,26 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-19",
+      "posted_date": "2026-05-20",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "swe",
       "date_confidence": "maybe",
       "id": "a99d2d623e6f"
+    },
+    {
+      "title": "Software Developer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-05-20",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "efd78dc0cd82"
     },
     {
       "title": "Research Assistant III",
@@ -67,6 +80,19 @@
       "id": "a238e5b4dd37"
     },
     {
+      "title": "PhD Data Scientist, Intern",
+      "company": "Stripe",
+      "location": "New York, NY",
+      "url": "https://stripe.com/jobs/search?gh_jid=7874965",
+      "posted_date": "2026-05-19",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "ds",
+      "date_confidence": "maybe",
+      "id": "b9c42e5816f4"
+    },
+    {
       "title": "Data Engineer Intern",
       "company": "Leidos",
       "location": "",
@@ -78,32 +104,6 @@
       "role": "de",
       "date_confidence": "maybe",
       "id": "07b41a874f0a"
-    },
-    {
-      "title": "Software Developer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-18",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "efd78dc0cd82"
-    },
-    {
-      "title": "PhD Data Scientist, Intern",
-      "company": "Stripe",
-      "location": "New York, NY",
-      "url": "https://stripe.com/jobs/search?gh_jid=7874965",
-      "posted_date": "2026-05-14",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "ds",
-      "date_confidence": "maybe",
-      "id": "b9c42e5816f4"
     },
     {
       "title": "Data Science Intern",
