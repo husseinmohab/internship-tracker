@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-25T15:57:22.930709+00:00",
+  "last_updated": "2026-05-26T16:47:46.030510+00:00",
   "jobs": [
     {
       "title": "Research Assistant - Epidemiology",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-05-25",
+      "posted_date": "2026-05-26",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -19,7 +19,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-25",
+      "posted_date": "2026-05-26",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -32,7 +32,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-05-25",
+      "posted_date": "2026-05-26",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -45,13 +45,26 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-25",
+      "posted_date": "2026-05-26",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "swe",
       "date_confidence": "maybe",
       "id": "e97cbfca7375"
+    },
+    {
+      "title": "Power Platform Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-05-26",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "a3194c817285"
     },
     {
       "title": "Business Analyst Intern",
@@ -91,19 +104,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "00c1c174eb2a"
-    },
-    {
-      "title": "Power Platform Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-25",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "a3194c817285"
     },
     {
       "title": "Data Science Intern",
