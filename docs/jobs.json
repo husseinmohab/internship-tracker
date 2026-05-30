@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-29T16:46:01.085633+00:00",
+  "last_updated": "2026-05-30T14:35:00.951550+00:00",
   "jobs": [
     {
       "title": "Research Assistant - Epidemiology",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-05-29",
+      "posted_date": "2026-05-30",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -19,7 +19,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-05-29",
+      "posted_date": "2026-05-30",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -32,13 +32,39 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-29",
+      "posted_date": "2026-05-30",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "swe",
       "date_confidence": "maybe",
       "id": "a3194c817285"
+    },
+    {
+      "title": "Business Analyst Intern, Marketing",
+      "company": "Cloudflare",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7729700?gh_jid=7729700",
+      "posted_date": "2026-05-29",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "da",
+      "date_confidence": "maybe",
+      "id": "905107ae89ab"
+    },
+    {
+      "title": "Research Assistant Neuroscience Research",
+      "company": "Kennedy Krieger Institute",
+      "location": "Remote",
+      "url": "https://remoteOK.com/remote-jobs/remote-research-assistant-neuroscience-research-kennedy-krieger-institute-1132507",
+      "posted_date": "2026-05-29",
+      "source": "RemoteOK",
+      "type": "Remote",
+      "start_date": "",
+      "role": "ra",
+      "date_confidence": "maybe",
+      "id": "8cd2b3f0a1ea"
     },
     {
       "title": "Software Engineer Intern",
@@ -169,19 +195,6 @@
       "role": "de",
       "date_confidence": "maybe",
       "id": "07b41a874f0a"
-    },
-    {
-      "title": "Business Analyst Intern, Marketing",
-      "company": "Cloudflare",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7729700?gh_jid=7729700",
-      "posted_date": "2026-05-11",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "da",
-      "date_confidence": "maybe",
-      "id": "905107ae89ab"
     },
     {
       "title": "Software Engineer — Summer Intern",
