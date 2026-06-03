@@ -1,6 +1,32 @@
 {
-  "last_updated": "2026-06-02T17:25:58.860939+00:00",
+  "last_updated": "2026-06-03T18:06:56.293778+00:00",
   "jobs": [
+    {
+      "title": "Auditory and Hearing Research Assistant",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
+      "posted_date": "2026-06-03",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ra",
+      "date_confidence": "maybe",
+      "id": "1ce996a0aae9"
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-06-03",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "e97cbfca7375"
+    },
     {
       "title": "Research Assistant - Epidemiology",
       "company": "Leidos",
@@ -13,19 +39,6 @@
       "role": "ra",
       "date_confidence": "maybe",
       "id": "604596b17db1"
-    },
-    {
-      "title": "Auditory and Hearing Research Assistant",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-06-02",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "ra",
-      "date_confidence": "maybe",
-      "id": "1ce996a0aae9"
     },
     {
       "title": "Power Platform Intern",
@@ -65,19 +78,6 @@
       "role": "ra",
       "date_confidence": "maybe",
       "id": "8cd2b3f0a1ea"
-    },
-    {
-      "title": "Software Engineer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-28",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "e97cbfca7375"
     },
     {
       "title": "AI Data Science Intern",
