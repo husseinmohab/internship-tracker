@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-03T18:06:56.293778+00:00",
+  "last_updated": "2026-06-04T16:28:31.564371+00:00",
   "jobs": [
     {
       "title": "Auditory and Hearing Research Assistant",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-06-03",
+      "posted_date": "2026-06-04",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -19,13 +19,26 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-06-03",
+      "posted_date": "2026-06-04",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "swe",
       "date_confidence": "maybe",
       "id": "e97cbfca7375"
+    },
+    {
+      "title": "Software Engineering Apprentice, Full-Stack",
+      "company": "Affirm",
+      "location": "Remote",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7647925003",
+      "posted_date": "2026-06-03",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "f3deaab185a4"
     },
     {
       "title": "Research Assistant - Epidemiology",
@@ -221,19 +234,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "ce3e15652460"
-    },
-    {
-      "title": "Software Engineering Apprentice, Full-Stack",
-      "company": "Affirm",
-      "location": "Remote",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7647925003",
-      "posted_date": "2026-05-08",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "f3deaab185a4"
     },
     {
       "title": "Software Engineer Intern - Bengaluru",
