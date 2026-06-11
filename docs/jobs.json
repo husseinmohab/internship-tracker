@@ -1,18 +1,44 @@
 {
-  "last_updated": "2026-06-10T16:42:01.619652+00:00",
+  "last_updated": "2026-06-11T16:56:35.969697+00:00",
   "jobs": [
     {
       "title": "Auditory and Hearing Research Assistant",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-06-10",
+      "posted_date": "2026-06-11",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "ra",
       "date_confidence": "maybe",
       "id": "1ce996a0aae9"
+    },
+    {
+      "title": "Software Developer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-06-11",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "efd78dc0cd82"
+    },
+    {
+      "title": "People Team: Software Engineer Intern",
+      "company": "Cloudflare",
+      "location": "Hybrid",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7774167?gh_jid=7774167",
+      "posted_date": "2026-06-10",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "74010a5d1005"
     },
     {
       "title": "Software Engineer Intern",
@@ -143,19 +169,6 @@
       "role": "da",
       "date_confidence": "maybe",
       "id": "2c46e74fd65f"
-    },
-    {
-      "title": "Software Developer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-25",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "efd78dc0cd82"
     },
     {
       "title": "Cybersecurity Platform Intern",
