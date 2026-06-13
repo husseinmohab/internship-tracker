@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-12T16:23:37.881539+00:00",
+  "last_updated": "2026-06-13T15:07:55.750517+00:00",
   "jobs": [
     {
       "title": "Auditory and Hearing Research Assistant",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-06-12",
+      "posted_date": "2026-06-13",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -19,13 +19,26 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-06-12",
+      "posted_date": "2026-06-13",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "swe",
       "date_confidence": "maybe",
       "id": "efd78dc0cd82"
+    },
+    {
+      "title": "Data Engineer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-06-13",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "de",
+      "date_confidence": "maybe",
+      "id": "07b41a874f0a"
     },
     {
       "title": "People Team: Software Engineer Intern",
@@ -221,19 +234,6 @@
       "role": "ra",
       "date_confidence": "maybe",
       "id": "a238e5b4dd37"
-    },
-    {
-      "title": "Data Engineer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-05-18",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "de",
-      "date_confidence": "maybe",
-      "id": "07b41a874f0a"
     },
     {
       "title": "Software Engineer — Summer Intern",
