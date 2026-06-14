@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-06-13T14:55:10.610885+00:00",
+  "started_at": "2026-06-14T15:03:17.081718+00:00",
   "sources": {
     "Adzuna": {
       "raw_count": 0,
@@ -12,7 +12,7 @@
       "status": "ok"
     },
     "RemoteOK": {
-      "raw_count": 40,
+      "raw_count": 30,
       "error": null,
       "status": "ok"
     },
@@ -27,7 +27,7 @@
       "status": "ok"
     },
     "iCIMS": {
-      "raw_count": 213,
+      "raw_count": 103,
       "error": null,
       "status": "ok"
     },
@@ -37,13 +37,13 @@
       "status": "ok"
     },
     "Workday": {
-      "raw_count": 230,
+      "raw_count": 231,
       "error": null,
       "status": "ok"
     }
   },
   "filtered_count": 7,
   "total_jobs": 82,
-  "finished_at": "2026-06-13T15:07:55.750517+00:00",
+  "finished_at": "2026-06-14T15:16:04.965480+00:00",
   "success": true
 }
