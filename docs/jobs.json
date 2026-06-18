@@ -1,18 +1,44 @@
 {
-  "last_updated": "2026-06-17T16:44:54.215727+00:00",
+  "last_updated": "2026-06-18T16:40:54.545579+00:00",
   "jobs": [
     {
       "title": "Auditory and Hearing Research Assistant",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-06-17",
+      "posted_date": "2026-06-18",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "ra",
       "date_confidence": "maybe",
       "id": "1ce996a0aae9"
+    },
+    {
+      "title": "Software Developer Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-06-18",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "efd78dc0cd82"
+    },
+    {
+      "title": "Data Analytics Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=analytics%20intern",
+      "posted_date": "2026-06-18",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "da",
+      "date_confidence": "maybe",
+      "id": "7cb06d72d6ad"
     },
     {
       "title": "PhD Data Scientist, Intern",
@@ -26,19 +52,6 @@
       "role": "ds",
       "date_confidence": "maybe",
       "id": "b9c42e5816f4"
-    },
-    {
-      "title": "Software Developer Intern",
-      "company": "Leidos",
-      "location": "",
-      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-06-14",
-      "source": "Workday",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "efd78dc0cd82"
     },
     {
       "title": "Data Engineer Intern",
