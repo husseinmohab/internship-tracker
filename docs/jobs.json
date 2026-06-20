@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-19T16:07:52.566857+00:00",
+  "last_updated": "2026-06-20T15:11:06.486958+00:00",
   "jobs": [
     {
       "title": "Auditory and Hearing Research Assistant",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-06-19",
+      "posted_date": "2026-06-20",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -19,7 +19,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-06-19",
+      "posted_date": "2026-06-20",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -32,7 +32,7 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=analytics%20intern",
-      "posted_date": "2026-06-19",
+      "posted_date": "2026-06-20",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -45,13 +45,26 @@
       "company": "Stripe",
       "location": "New York, NY",
       "url": "https://stripe.com/jobs/search?gh_jid=7874965",
-      "posted_date": "2026-06-16",
+      "posted_date": "2026-06-19",
       "source": "Greenhouse",
       "type": null,
       "start_date": "",
       "role": "ds",
       "date_confidence": "maybe",
       "id": "b9c42e5816f4"
+    },
+    {
+      "title": "Business Analyst Intern, Marketing",
+      "company": "Cloudflare",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7729700?gh_jid=7729700",
+      "posted_date": "2026-06-19",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "da",
+      "date_confidence": "maybe",
+      "id": "905107ae89ab"
     },
     {
       "title": "Data Engineer Intern",
@@ -143,19 +156,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "a3194c817285"
-    },
-    {
-      "title": "Business Analyst Intern, Marketing",
-      "company": "Cloudflare",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7729700?gh_jid=7729700",
-      "posted_date": "2026-05-29",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "da",
-      "date_confidence": "maybe",
-      "id": "905107ae89ab"
     },
     {
       "title": "Research Assistant Neuroscience Research",
