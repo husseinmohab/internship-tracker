@@ -1,18 +1,31 @@
 {
-  "last_updated": "2026-06-25T15:49:13.332765+00:00",
+  "last_updated": "2026-06-26T15:32:08.953203+00:00",
   "jobs": [
     {
       "title": "Auditory and Hearing Research Assistant",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-06-25",
+      "posted_date": "2026-06-26",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "ra",
       "date_confidence": "maybe",
       "id": "1ce996a0aae9"
+    },
+    {
+      "title": "AI Builder Intern",
+      "company": "Scale AI",
+      "location": "New York, NY",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005",
+      "posted_date": "2026-06-25",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "ds",
+      "date_confidence": "maybe",
+      "id": "c196b01c668d"
     },
     {
       "title": "Software Developer Intern",
@@ -104,19 +117,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "e97cbfca7375"
-    },
-    {
-      "title": "AI Builder Intern",
-      "company": "Scale AI",
-      "location": "New York, NY",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005",
-      "posted_date": "2026-06-06",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "ds",
-      "date_confidence": "maybe",
-      "id": "c196b01c668d"
     },
     {
       "title": "Software Engineering Apprentice, Full-Stack",
