@@ -1,18 +1,44 @@
 {
-  "last_updated": "2026-07-09T16:03:02.408425+00:00",
+  "last_updated": "2026-07-10T15:37:53.676267+00:00",
   "jobs": [
     {
       "title": "Auditory and Hearing Research Assistant",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-07-09",
+      "posted_date": "2026-07-10",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "ra",
       "date_confidence": "maybe",
       "id": "1ce996a0aae9"
+    },
+    {
+      "title": "Software Engineer, Intern",
+      "company": "Stripe",
+      "location": "Bengaluru",
+      "url": "https://stripe.com/jobs/search?gh_jid=8031833",
+      "posted_date": "2026-07-10",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "c9de259a1786"
+    },
+    {
+      "title": "AI Builder Intern",
+      "company": "Scale AI",
+      "location": "New York, NY",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005",
+      "posted_date": "2026-07-09",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "ds",
+      "date_confidence": "maybe",
+      "id": "c196b01c668d"
     },
     {
       "title": "Data Engineer Intern",
@@ -26,19 +52,6 @@
       "role": "de",
       "date_confidence": "maybe",
       "id": "a269167909b9"
-    },
-    {
-      "title": "AI Builder Intern",
-      "company": "Scale AI",
-      "location": "New York, NY",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005",
-      "posted_date": "2026-06-25",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "ds",
-      "date_confidence": "maybe",
-      "id": "c196b01c668d"
     },
     {
       "title": "Software Developer Intern",
