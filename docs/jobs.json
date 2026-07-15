@@ -1,18 +1,31 @@
 {
-  "last_updated": "2026-07-14T14:53:52.894498+00:00",
+  "last_updated": "2026-07-15T14:53:16.619516+00:00",
   "jobs": [
     {
       "title": "Auditory and Hearing Research Assistant",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-07-14",
+      "posted_date": "2026-07-15",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "ra",
       "date_confidence": "maybe",
       "id": "1ce996a0aae9"
+    },
+    {
+      "title": "Software Engineer Intern - Austin, TX",
+      "company": "Cloudflare",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
+      "posted_date": "2026-07-14",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "2cb8eeec6d11"
     },
     {
       "title": "Software Engineer, Intern",
