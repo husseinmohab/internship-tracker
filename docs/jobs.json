@@ -1,18 +1,31 @@
 {
-  "last_updated": "2026-07-21T15:06:08.466111+00:00",
+  "last_updated": "2026-07-22T15:05:47.824605+00:00",
   "jobs": [
     {
       "title": "Auditory and Hearing Research Assistant",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-07-21",
+      "posted_date": "2026-07-22",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "ra",
       "date_confidence": "maybe",
       "id": "1ce996a0aae9"
+    },
+    {
+      "title": "Software Engineer, Intern",
+      "company": "Stripe",
+      "location": "Bengaluru",
+      "url": "https://stripe.com/jobs/search?gh_jid=8031833",
+      "posted_date": "2026-07-21",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "swe",
+      "date_confidence": "maybe",
+      "id": "c9de259a1786"
     },
     {
       "title": "Strategic Student Program: AI/ML Software Engineer Intern",
@@ -390,19 +403,6 @@
       "role": "swe",
       "date_confidence": "maybe",
       "id": "2cb8eeec6d11"
-    },
-    {
-      "title": "Software Engineer, Intern",
-      "company": "Stripe",
-      "location": "Bengaluru",
-      "url": "https://stripe.com/jobs/search?gh_jid=8031833",
-      "posted_date": "2026-07-10",
-      "source": "Greenhouse",
-      "type": null,
-      "start_date": "",
-      "role": "swe",
-      "date_confidence": "maybe",
-      "id": "c9de259a1786"
     },
     {
       "title": "AI Builder Intern",
