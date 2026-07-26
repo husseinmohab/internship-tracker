@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-25T14:25:06.972846+00:00",
+  "started_at": "2026-07-26T14:22:03.722571+00:00",
   "sources": {
     "Adzuna": {
       "raw_count": 0,
@@ -12,7 +12,7 @@
       "status": "ok"
     },
     "RemoteOK": {
-      "raw_count": 47,
+      "raw_count": 39,
       "error": null,
       "status": "ok"
     },
@@ -37,13 +37,13 @@
       "status": "ok"
     },
     "Workday": {
-      "raw_count": 215,
+      "raw_count": 213,
       "error": null,
       "status": "ok"
     }
   },
   "filtered_count": 4,
   "total_jobs": 114,
-  "finished_at": "2026-07-25T14:37:43.377654+00:00",
+  "finished_at": "2026-07-26T14:34:56.325884+00:00",
   "success": true
 }
