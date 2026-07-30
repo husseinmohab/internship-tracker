@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-29T15:33:15.112481+00:00",
+  "last_updated": "2026-07-30T15:12:15.356142+00:00",
   "jobs": [
     {
       "title": "Auditory and Hearing Research Assistant",
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=research%20intern",
-      "posted_date": "2026-07-29",
+      "posted_date": "2026-07-30",
       "source": "Workday",
       "type": null,
       "start_date": "",
@@ -19,13 +19,39 @@
       "company": "Leidos",
       "location": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
-      "posted_date": "2026-07-29",
+      "posted_date": "2026-07-30",
       "source": "Workday",
       "type": null,
       "start_date": "",
       "role": "swe",
       "date_confidence": "maybe",
       "id": "efd78dc0cd82"
+    },
+    {
+      "title": "Data Science Intern",
+      "company": "Leidos",
+      "location": "",
+      "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External?q=data%20engineer%20intern",
+      "posted_date": "2026-07-30",
+      "source": "Workday",
+      "type": null,
+      "start_date": "",
+      "role": "ds",
+      "date_confidence": "maybe",
+      "id": "7e8c52b860ce"
+    },
+    {
+      "title": "Research Engineer Intern",
+      "company": "Cloudflare",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407",
+      "posted_date": "2026-07-29",
+      "source": "Greenhouse",
+      "type": null,
+      "start_date": "",
+      "role": "re",
+      "date_confidence": "maybe",
+      "id": "36ba1b47694d"
     },
     {
       "title": "AI Intern",
