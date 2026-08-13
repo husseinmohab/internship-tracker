@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-12T14:11:13.499372+00:00",
+  "started_at": "2026-08-13T14:12:33.919404+00:00",
   "sources": {
     "Adzuna": {
       "raw_count": 0,
@@ -12,12 +12,12 @@
       "status": "ok"
     },
     "RemoteOK": {
-      "raw_count": 20,
+      "raw_count": 17,
       "error": null,
       "status": "ok"
     },
     "Greenhouse": {
-      "raw_count": 4735,
+      "raw_count": 4691,
       "error": null,
       "status": "ok"
     },
@@ -32,18 +32,18 @@
       "status": "ok"
     },
     "Universities": {
-      "raw_count": 0,
+      "raw_count": 22,
       "error": null,
       "status": "ok"
     },
     "Workday": {
-      "raw_count": 220,
+      "raw_count": 223,
       "error": null,
       "status": "ok"
     }
   },
-  "filtered_count": 9,
+  "filtered_count": 28,
   "total_jobs": 142,
-  "finished_at": "2026-08-12T14:24:00.589138+00:00",
+  "finished_at": "2026-08-13T14:25:10.123028+00:00",
   "success": true
 }
