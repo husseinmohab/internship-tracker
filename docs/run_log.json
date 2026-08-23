@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-22T13:22:41.081693+00:00",
+  "started_at": "2026-08-23T13:23:52.329880+00:00",
   "sources": {
     "Adzuna": {
       "raw_count": 0,
@@ -12,12 +12,12 @@
       "status": "ok"
     },
     "RemoteOK": {
-      "raw_count": 29,
+      "raw_count": 27,
       "error": null,
       "status": "ok"
     },
     "Greenhouse": {
-      "raw_count": 4755,
+      "raw_count": 4758,
       "error": null,
       "status": "ok"
     },
@@ -44,6 +44,6 @@
   },
   "filtered_count": 31,
   "total_jobs": 146,
-  "finished_at": "2026-08-22T13:35:09.893696+00:00",
+  "finished_at": "2026-08-23T13:36:21.849750+00:00",
   "success": true
 }
