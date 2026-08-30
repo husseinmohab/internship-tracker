@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-29T16:54:14.862811+00:00",
+  "started_at": "2026-08-30T17:01:08.676703+00:00",
   "sources": {
     "Adzuna": {
       "raw_count": 0,
@@ -12,7 +12,7 @@
       "status": "ok"
     },
     "RemoteOK": {
-      "raw_count": 30,
+      "raw_count": 31,
       "error": null,
       "status": "ok"
     },
@@ -44,6 +44,6 @@
   },
   "filtered_count": 35,
   "total_jobs": 150,
-  "finished_at": "2026-08-29T17:07:00.102856+00:00",
+  "finished_at": "2026-08-30T17:14:00.148060+00:00",
   "success": true
 }
