@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-05T15:41:06.366527+00:00",
+  "started_at": "2026-09-06T15:52:20.074207+00:00",
   "sources": {
     "Adzuna": {
       "raw_count": 0,
@@ -17,7 +17,7 @@
       "status": "ok"
     },
     "Greenhouse": {
-      "raw_count": 4677,
+      "raw_count": 4676,
       "error": null,
       "status": "ok"
     },
@@ -44,6 +44,6 @@
   },
   "filtered_count": 33,
   "total_jobs": 154,
-  "finished_at": "2026-09-05T15:53:52.676836+00:00",
+  "finished_at": "2026-09-06T16:04:54.420727+00:00",
   "success": true
 }
