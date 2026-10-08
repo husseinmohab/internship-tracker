@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-10-07T19:07:59.778013+00:00",
+  "started_at": "2026-10-08T19:03:20.944443+00:00",
   "sources": {
     "Adzuna": {
-      "raw_count": 4,
+      "raw_count": 2,
       "error": null,
       "status": "ok"
     },
     "USAJobs": {
-      "raw_count": 104,
+      "raw_count": 108,
       "error": null,
       "status": "ok"
     },
     "RemoteOK": {
-      "raw_count": 56,
+      "raw_count": 55,
       "error": null,
       "status": "ok"
     },
@@ -22,12 +22,12 @@
       "status": "ok"
     },
     "Lever": {
-      "raw_count": 96,
+      "raw_count": 97,
       "error": null,
       "status": "ok"
     },
     "iCIMS": {
-      "raw_count": 236,
+      "raw_count": 238,
       "error": null,
       "status": "ok"
     },
@@ -37,13 +37,13 @@
       "status": "ok"
     },
     "Workday": {
-      "raw_count": 195,
+      "raw_count": 200,
       "error": null,
       "status": "ok"
     }
   },
-  "filtered_count": 69,
+  "filtered_count": 67,
   "total_jobs": 202,
-  "finished_at": "2026-10-07T19:20:42.958445+00:00",
+  "finished_at": "2026-10-08T19:16:12.253889+00:00",
   "success": true
 }
